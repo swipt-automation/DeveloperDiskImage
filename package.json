@@ -1,0 +1,21 @@
+{
+  "name": "@swipt/developer-disk-image",
+  "version": "27.2.0",
+  "description": "The iOS Developer Disk Image that Swipt mounts on the device",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swipt-automation/swipt.git",
+    "directory": "Swipt/Resources/DeveloperDiskImage"
+  },
+  "files": [
+    "BuildManifest.plist",
+    "Image.dmg",
+    "Image.dmg.cryptex_info",
+    "Image.dmg.root_hash",
+    "Image.dmg.trustcache"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
